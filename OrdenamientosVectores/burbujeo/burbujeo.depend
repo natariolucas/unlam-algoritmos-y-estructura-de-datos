@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1692644759 source:c:\users\lucas\desktop\algoritmos\codeblocks\ordenamientosvectores\burbujeo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../../Librerias/vectores/vectores.h"
+	"../../Librerias/vectores/vectores_ordenamientos.h"
+
+1692569416 c:\users\lucas\desktop\algoritmos\codeblocks\librerias\vectores\vectores.h
+
+1692569416 source:c:\users\lucas\desktop\algoritmos\codeblocks\librerias\vectores\vectores.c
+	<stdlib.h>
+	"vectores.h"
+
+1692644606 c:\users\lucas\desktop\algoritmos\codeblocks\librerias\vectores\vectores_ordenamientos.h
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1692564341 source:c:\users\lucas\desktop\algoritmos\codeblocks\librerias\cadenas\cadenas.c
+	"cadenas.h"
+
+1692564187 c:\users\lucas\desktop\algoritmos\codeblocks\librerias\cadenas\cadenas.h
+
+1692564616 source:c:\users\lucas\desktop\algoritmos\codeblocks\ejemplopunterosparteb\main.c
+	<stdio.h>
+	<string.h>
+	"../Librerias/cadenas/cadenas.h"
+
