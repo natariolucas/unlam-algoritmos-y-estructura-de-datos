@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1693671830 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\pila\tda_pila_estatica.c
+	"tda_pila_estatica.h"
+	<string.h>
+
+1692673378 c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\pila\tda_pila_estatica.h
+	<stddef.h>
+
+1693671732 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\tda\pila\suma_numeros_pila\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../../../Librerias/tda/pila/tda_pila_estatica.h"
+
