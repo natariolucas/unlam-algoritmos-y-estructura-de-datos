@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1696359600 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\pila\tda_pila_dinamica\tda_pila_dinamica.c
+	"tda_pila_dinamica.h"
+	<stdlib.h>
+	<string.h>
+
+1696359600 c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\pila\tda_pila_dinamica\tda_pila_dinamica.h
+	<stddef.h>
+

@@ -11,3 +11,16 @@
 	<stdlib.h>
 	"../../../Librerias/tda/pila/tda_pila_estatica.h"
 
+1696360387 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\tda\pila\poc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../../../Librerias/tda/pila/tda_pila_dinamica/tda_pila_dinamica.h"
+
+1696359600 c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\pila\tda_pila_dinamica\tda_pila_dinamica.h
+	<stddef.h>
+
+1696359600 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\pila\tda_pila_dinamica\tda_pila_dinamica.c
+	"tda_pila_dinamica.h"
+	<stdlib.h>
+	<string.h>
+
