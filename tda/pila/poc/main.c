@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../../Librerias/tda/pila/tda_pila_estatica.h"
+#include "../../../Librerias/tda/pila/tda_pila_dinamica/tda_pila_dinamica.h"
 int main()
 {
     int elem1 = 50;
