@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../../Librerias/tda/cola/tda_cola_dinamica/tda_cola_dinamica.h"
+#include "../../../Librerias/tda/cola/tda_cola_estatica/tda_cola_estatica.h"
 int main()
 {
 

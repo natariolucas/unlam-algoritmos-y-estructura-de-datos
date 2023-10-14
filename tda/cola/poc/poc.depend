@@ -1,14 +1,21 @@
 # depslib dependency file v1.0
-1696364658 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\tda\cola\poc\main.c
+1696367325 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\tda\cola\poc\main.c
 	<stdio.h>
 	<stdlib.h>
-	"../../../Librerias/tda/cola/tda_cola_dinamica/tda_cola_dinamica.h"
+	"../../../Librerias/tda/cola/tda_cola_estatica/tda_cola_estatica.h"
 
 1696364309 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\cola\tda_cola_dinamica\tda_cola_dinamica.c
 	"tda_cola_dinamica.h"
 	<stdlib.h>
 	<string.h>
 
-1696364291 c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\cola\tda_cola_dinamica\tda_cola_dinamica.h
+1696365604 c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\cola\tda_cola_dinamica\tda_cola_dinamica.h
+	<stddef.h>
+
+1697311661 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\cola\tda_cola_estatica\tda_cola_estatica.c
+	"tda_cola_estatica.h"
+	<string.h>
+
+1697311862 c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\cola\tda_cola_estatica\tda_cola_estatica.h
 	<stddef.h>
 
