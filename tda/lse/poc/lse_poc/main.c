@@ -3,6 +3,7 @@
 #include "../../../../Librerias/tda/lse/lse.h"
 
 void mostrar_enteros(const void* a);
+int comparar_enteros(const void* a, const void* b);
 
 int main()
 {
@@ -17,6 +18,15 @@ int main()
     for(int i = 0; i<=9; i++) {
         poner_al_principio(&lista, &elems[i], sizeof(int));
     }
+
+    printf("\nSe muestra la lista entera: \n");
+    mostrar_lista(&lista, mostrar_enteros);
+
+    printf("\nSe ordena la lista por insercion \n");
+    ordenar_lista_insercion(&lista, comparar_enteros);
+    //printf("\nSe ordena la lista por seleccion \n");
+    //ordenar_lista_seleccion(&lista, comparar_enteros);
+
 
     printf("\nSe muestra la lista entera: \n");
     mostrar_lista(&lista, mostrar_enteros);
@@ -68,4 +78,19 @@ int main()
 
 void mostrar_enteros(const void* a) {
     printf("-Elemento: %d\n", *((int*)a));
+}
+int comparar_enteros(const void* va, const void* vb) {
+    int a,b;
+    a = *(int*)va;
+    b = *(int*)vb;
+
+    if (a > b) {
+        return 1;
+    }
+
+    if (a < b) {
+        return -1;
+    }
+
+    return 0;
 }

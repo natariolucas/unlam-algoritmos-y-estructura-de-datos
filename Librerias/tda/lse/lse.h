@@ -34,4 +34,7 @@ int ver_ultimo_lista(t_lista* pl, void* pd, size_t tam);
 void mostrar_lista(t_lista* pl, void(*accion)(const void* a));
 int poner_en_posicion(t_lista *pl, const void *pd, size_t tam, unsigned pos );
 int sacar_de_lista(t_lista* pl, void *pd, size_t tam, int(*cmp)(const void* a, const void* b));
+
+void ordenar_lista_insercion(t_lista *pl, int(*cmp)(const void* a, const void* b));
+void ordenar_lista_seleccion(t_lista *pl, int(*cmp)(const void* a, const void* b));
 #endif // LSE_H_INCLUDED

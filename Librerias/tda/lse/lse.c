@@ -191,3 +191,50 @@ void mostrar_lista(t_lista* pl, void(*accion)(const void* a)) {
         pl = &(*pl)->sig;
     }
 }
+
+void ordenar_lista_insercion(t_lista* pl, int(*cmp)(const void* a, const void* b)) {
+    t_nodo* nodo;
+    t_lista lOrd;
+    t_lista* plOrd;
+    while(*pl) {
+        //Desengancho el nodo
+        nodo = *pl;
+        *pl = nodo->sig;
+        plOrd = &lOrd;
+        while(*plOrd && cmp(nodo->info, (*plOrd)->info) > 0 ) {
+            plOrd = &(*plOrd)->sig;
+        }
+
+        //lo engancho en la nueva lista
+        nodo->sig = *plOrd;
+        *plOrd = nodo;
+    }
+
+    //piso la lista original con la ordenada
+    *pl = lOrd;
+}
+
+void ordenar_lista_seleccion(t_lista* pl, int(*cmp)(const void* a, const void* b)) {
+    while(*pl) {
+        t_lista *aux = pl;
+        t_lista *menor = pl;
+
+        while((*aux)->sig) {
+           if(cmp((*aux)->sig->info, (*menor)->info) < 0) {
+                menor = &(*aux)->sig;
+           }
+
+           aux = &(*aux)->sig;
+        }
+
+        t_nodo* primero = *menor;
+        *menor = (*menor)->sig;
+        primero->sig = *pl;
+        *pl = primero;
+
+        pl = &(*pl)->sig;
+    }
+}
+
+
+
