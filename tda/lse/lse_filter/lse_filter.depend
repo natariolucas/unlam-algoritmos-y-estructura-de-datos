@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1697343409 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\lse\lse.c
+	"lse.h"
+	<stdlib.h>
+	<strings.h>
+
+1697343409 c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\lse\lse.h
+	<stddef.h>
+
+1697343475 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\tda\lse\lse_filter\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../../../Librerias/tda/lse/lse.h"
+

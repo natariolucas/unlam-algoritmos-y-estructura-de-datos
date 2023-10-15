@@ -236,10 +236,24 @@ void ordenar_lista_seleccion(t_lista* pl, int(*cmp)(const void* a, const void* b
     }
 }
 
-void map_lista(const t_lista* pl, void(*accionMap)(void* elem, void* extra), void* param) {
+void map_lista(const t_lista* pl, accionMap fn, void* param) {
     while(*pl) {
-        accionMap((*pl)->info, param);
+        fn((*pl)->info, param);
         pl = &(*pl)->sig;
+    }
+}
+
+void filter_lista(t_lista* pl, accionFiltro fn, void* param) {
+    while(*pl) {
+
+        if(!fn((*pl)->info, param)) {
+            t_nodo* elim = *pl;
+            *pl = elim->sig;
+            free(elim->info);
+            free(elim);
+        } else {
+            pl = &(*pl)->sig;
+        }
     }
 }
 

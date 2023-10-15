@@ -11,7 +11,8 @@
 
 typedef int(*cmp)(const void* a, const void* b);
 typedef void(*accion)(const void* a);
-
+typedef void(*accionMap)(void* elem, void* extra);
+typedef int(*accionFiltro)(const void* elem, void* extra);
 typedef struct s_nodo
 {
     void* info;
@@ -38,5 +39,6 @@ int sacar_de_lista(t_lista* pl, void *pd, size_t tam, int(*cmp)(const void* a, c
 void ordenar_lista_insercion(t_lista *pl, int(*cmp)(const void* a, const void* b));
 void ordenar_lista_seleccion(t_lista *pl, int(*cmp)(const void* a, const void* b));
 
-void map_lista(const t_lista* pl, void(*accionMap)(void* elem, void* extra), void* param);
+void map_lista(const t_lista* pl, accionMap fn, void* param);
+void filter_lista(t_lista* pl, accionFiltro fn, void* param);
 #endif // LSE_H_INCLUDED
