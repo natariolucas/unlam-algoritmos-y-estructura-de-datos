@@ -236,5 +236,11 @@ void ordenar_lista_seleccion(t_lista* pl, int(*cmp)(const void* a, const void* b
     }
 }
 
+void map_lista(const t_lista* pl, void(*accionMap)(void* elem, void* extra), void* param) {
+    while(*pl) {
+        accionMap((*pl)->info, param);
+        pl = &(*pl)->sig;
+    }
+}
 
 
