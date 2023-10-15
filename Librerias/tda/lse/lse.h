@@ -37,4 +37,6 @@ int sacar_de_lista(t_lista* pl, void *pd, size_t tam, int(*cmp)(const void* a, c
 
 void ordenar_lista_insercion(t_lista *pl, int(*cmp)(const void* a, const void* b));
 void ordenar_lista_seleccion(t_lista *pl, int(*cmp)(const void* a, const void* b));
+
+void map_lista(const t_lista* pl, void(*accionMap)(void* elem, void* extra), void* param);
 #endif // LSE_H_INCLUDED
