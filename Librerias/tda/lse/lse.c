@@ -257,4 +257,12 @@ void filter_lista(t_lista* pl, accionFiltro fn, void* param) {
     }
 }
 
+int reduce_lista(const t_lista* pl, void* ret, accionReduce fn, void* param) {
+    int r = 1;
+    while(*pl && r) {
+        r = fn((*pl)->info, ret, param);
+        pl = &(*pl)->sig;
+    }
 
+    return OK;
+}
