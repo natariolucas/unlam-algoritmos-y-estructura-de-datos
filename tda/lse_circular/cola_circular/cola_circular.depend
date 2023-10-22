@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1698003210 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\tda\lse_circular\cola_circular\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../../../Librerias/tda/lse_circular/cola_circular/cola_circular.h"
+
+1698002492 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\lse_circular\cola_circular\cola_circular.c
+	"cola_circular.h"
+	<stdlib.h>
+	<strings.h>
+
+1698002457 c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\lse_circular\cola_circular\cola_circular.h
+	<stddef.h>
+
