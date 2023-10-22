@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1698011086 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\tda\lde\poc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../../../Librerias/tda/lde/lde.h"
+	<strings.h>
+
+1698009864 c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\lde\lde.h
+	<stddef.h>
+
+1698011027 source:c:\users\lucas\desktop\algoritmos\repo\algoritmosyestructurasdedatos\librerias\tda\lde\lde.c
+	"lde.h"
+	<stdlib.h>
+	<strings.h>
+
